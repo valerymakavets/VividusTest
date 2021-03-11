@@ -16,7 +16,7 @@ Composite: When I open the product
 When I click on element located `By.xpath(//*[@id="searchProductResult"]/ul/li[1]/div/div[2]/div[5]/div/a)`
 
 Composite: When I add the product to cart
-When I click on element located `By.xpath(//*[@id="add-on-atc-container"]/div[1]/section/div[1]/div[3]/button)`
+When I click on element located `By.xpath(//*[contains(text(),'Add to cart')])`
 
 Composite: When I open the cart
-When I click on element located `By.xpath(//*[@id="cart-root-container-content-skip"]/div[1]/div/div[2]/div/div/div/div/div[3]/div/div/div[2]/div/div[1]/button)`
+When I click on element located `By.xpath(//*[@id="hf-cart"]`
